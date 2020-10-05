@@ -1,0 +1,2 @@
+# gethubSampleProject
+Sample for apprenticeship
