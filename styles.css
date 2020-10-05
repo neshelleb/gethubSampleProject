@@ -1,0 +1,215 @@
+body {
+	background: #fff;
+	color: #4b2707;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 14px;
+	font-family: 'Arimo', sans-serif;
+}
+
+.container {
+	width: 924px;
+	margin: 0 auto;
+	padding: 30px 24px;
+}
+
+
+h1, h2 {
+	font-family: 'Arimo', sans-serif;
+	color: #013435;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	padding: 0 0 20px;
+}
+
+h1 em {
+	color: #dc7633;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a:link {
+	color: #dc7633;
+}
+
+a:visited {
+	color: #dc7633;
+}
+
+a:hover {
+	color: #039C9E;
+}
+
+/* Navbar */
+
+.brand{
+   float: left; 
+    top: 0;
+    margin: 0; 
+    padding: 0; 
+}
+
+#navbar{
+    background: white; 
+    margin: 0; 
+    padding; 0; 
+}
+header nav {
+	text-align: center;
+    font-size: 1.7em; 
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	line-height: 101px;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+header nav ul li a:hover {
+	color: #4b2707;
+	padding-top: 20px;
+	
+}
+
+header nav ul li a {
+	text-transform: lowercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/* Hero */
+
+#prime-banner {
+	background: #013435 top left repeat;
+}
+
+#prime-banner .container {
+	position: relative;
+}
+
+
+
+/* Main Story */
+
+#story-excerpt {
+	width: 530px;
+	margin-right: 24px;
+	float: left;
+	font-size: 16px;
+}
+
+#top-builders {
+	padding: 5px 0 20px 130px;
+	width: 240px;
+	float: left;
+}
+
+/* Blogs, Events, More */
+
+#articles {
+	width: 370px;
+	float: left;
+	margin-right: 24px;
+}
+
+#interior-vid {
+	width: 430px;
+	float: left;
+}
+
+#blogs-events article {
+	margin: 20px 0;
+	padding-left: 5px;
+}
+
+#blogs-events header time {
+	color: #dc7633;
+	font-size: 12px;
+}
+
+#blogs-events section.excerpt {
+	margin: 10px 0;
+}
+
+#blogs-events footer {
+	font-size: 12px;
+}
+
+/* Subscribe to Newsletter */
+
+.subscribe {
+    text-align: center; 
+}
+
+/* Footer */
+
+footer.main {
+	background: #4b2707 top left repeat;
+	color: #f2f3ee;
+	padding: 30px 0;
+}
+
+footer.main a:hover {
+	color: #f2f3ee;
+}
+
+.right-copy{
+    float: right; 
+	padding: 10px 0 10px 50px;
+}
+
+.left-copy{
+    float: left; 
+	padding: 10px 0 10px 50px;
+}
+
+#uncopyright {
+	background: #4b2707; 
+   
+}
+.socialimage{
+    padding: 10px; 
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
